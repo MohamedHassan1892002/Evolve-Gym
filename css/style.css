@@ -1,0 +1,132 @@
+
+:root{
+    --famely-h2:  'Raleway', sans-serif;
+    --mine-color:#eb699e;
+}
+.landing-bage{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+}
+
+.text h1{
+    font-family: var(--famely-h2);
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #fff;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.text h2{
+    line-height: 39px;
+    color: var(--mine-color);
+    font-size: 2rem;
+
+}
+
+.Classes h2{
+    font-family: var(--famely-h2);
+    color: #262626;
+    padding: 0 33px;
+    font-weight: 501;
+    font-size: 3rem;
+}
+.Classes p{
+    color: var(--mine-color);
+}
+.item p{
+    color: black;
+    font-family: var(--famely-h2);
+}
+.disco{
+    background-image: url(../images/disco.jpg);
+    background-size: cover;
+}
+.disco h2{
+    color: #fff;
+    font-weight: 501;
+    font-size: 3rem;
+    
+}
+.disco p{
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    padding: 30px 0px 50px 0px;
+}
+
+.Rqueste h2{
+    font-family: var(--famely-h2);
+    color: #262626;
+    padding: 0 33px;
+    font-weight: 501;
+    font-size: 3rem;
+}
+.Rqueste p{
+    color: var(--mine-color);
+
+}
+.login{
+    background-color: var(--mine-color);
+}
+ input , textarea{
+    border: 1px solid white;
+    outline: none;
+}
+
+.people{
+    background-image: url(../images/cli.jpg);
+    background-size: cover;
+}
+.people h2{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: var(--famely-h2);
+    color: #fff;
+}
+.flickity-page-dots .dot{
+    background-color: var(--mine-color) !important;
+}
+.carousel-cell h3{
+    font-size: 1.5rem;
+    color: #3c3c3d;
+    line-height: 18px;
+    font-weight: 600;
+
+}
+.carousel-cell p{
+    font-size: 1rem;
+    line-height: 28px;
+    color: #3c3c3d;
+    padding-top: 20px;
+}
+footer {
+    border-bottom: 2px solid gray;
+}
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .navbar-nav{
+        background-color: var(--mine-color);
+        padding: 1.5rem;
+    }
+    .nav-item :hover{
+        background-color: white;
+
+    }
+    html{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width:576px) {
+    html{
+        font-size: 12px;
+    }
+   
+}
